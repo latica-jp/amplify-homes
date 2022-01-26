@@ -4,4 +4,3 @@ type Home @model @auth(rules: [{allow: public}]) {
   image_url: String
   price: Float
 }
- 
